@@ -19,7 +19,7 @@ def fquick_sort(array):
     
     pivot = 0
     #choose the pivot as being the median of 
-    #the first middle and third, otherwise the middle
+    #the first middle and third, otherwise a random choosen index
     if len(array) > 3: 
         
         median_list = [array[1], array[len(array)/2], array[-1]]  
